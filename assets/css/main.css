@@ -24,6 +24,30 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+	
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	padding: 0 20px;
+	background-color: #333;
+	color: #fff;
+}
+
+.back-button, .front-button {
+background-color: transparent;
+border: none;
+color: #fff;
+cursor: pointer;
+}
+
+.title {
+font-size: 20px;
+text-align: center;
+}
+	
+
 
 
 body {
